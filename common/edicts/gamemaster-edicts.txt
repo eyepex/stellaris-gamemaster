@@ -1,0 +1,175 @@
+gamemaster_diplo = {
+	icon = "GFX_icon_gamemaster"
+	length = -1
+	resources = {
+		category = edicts
+		cost = {
+			unity = 0
+		}
+	}
+	potential = {
+		has_civic = civic_gamemaster
+		is_ai = no
+	}
+	modifier = {
+		diplo_weight_mult = 1000000
+	}
+	ai_weight = {
+		weight = 0
+	}
+	edict_cap_usage = 0
+}
+
+gamemaster_no_diplo = {
+	icon = "GFX_icon_gamemaster"
+	length = -1
+	resources = {
+		category = edicts
+		cost = {
+			unity = 0
+		}
+	}
+	potential = {
+		has_civic = civic_gamemaster
+		is_ai = no
+	}
+	modifier = {
+		diplo_weight_mult = -10
+	}
+	ai_weight = {
+		weight = 0
+	}
+	edict_cap_usage = 0
+}
+
+gamemaster_emergency_measures = {
+	icon = "GFX_icon_gamemaster"
+	length = -1
+	resources = {
+		category = edicts
+		cost = {
+			unity = 0
+		}
+	}
+	potential = {
+		has_civic = civic_gamemaster
+		is_ai = no
+	}
+	modifier = {
+		veto_cost_mult = -1
+		veto_cooldown_mult = -1
+		emergency_measures_cooldown_mult = -1
+	}
+	ai_weight = {
+		weight = 0
+	}
+	edict_cap_usage = 0
+}
+
+
+
+gamemaster_income = {
+	icon = "GFX_icon_gamemaster"
+	length = -1
+	resources = {
+		category = edicts
+		cost = {
+			unity = 0
+		}
+	}
+	modifier = {
+		country_resource_max_add = 100000
+		country_base_energy_produces_add = 10000
+		country_base_minerals_produces_add = 10000
+		country_base_food_produces_add = 10000
+		country_base_consumer_goods_produces_add = 10000
+		country_base_alloys_produces_add = 10000
+		country_base_influence_produces_add = 10000
+		country_base_volatile_motes_produces_add = 10000
+		country_base_exotic_gases_produces_add = 10000
+		country_base_rare_crystals_produces_add = 10000
+		country_base_sr_living_metal_produces_add = 10000
+		country_base_sr_zro_produces_add = 10000
+		country_base_sr_dark_matter_produces_add = 10000
+		country_nanites_produces_add = 10000
+	}
+	potential = {
+		has_civic = civic_gamemaster
+		is_ai = no
+	}
+	ai_weight = {
+		weight = 0
+	}
+	edict_cap_usage = 0
+}
+
+gamemaster_research = {
+	icon = "GFX_icon_gamemaster"
+	length = -1
+	resources = {
+		category = edicts
+		cost = {
+			unity = 0
+		}
+	}
+	modifier = {
+		country_base_unity_produces_add = 10000
+		country_base_physics_research_produces_add = 10000
+		country_base_society_research_produces_add = 10000
+		country_base_engineering_research_produces_add = 10000
+	}
+	potential = {
+		has_civic = civic_gamemaster
+		is_ai = no
+	}
+	ai_weight = {
+		weight = 0
+	}
+	edict_cap_usage = 0
+}
+
+gamemaster_spy_orb = {
+	icon = "GFX_icon_gamemaster"
+	length = -1
+	resources = {
+		category = edicts
+		cost = {
+			unity = 0
+		}
+	}
+	potential = {
+		has_civic = civic_gamemaster
+		is_ai = no
+	}
+	modifier = {
+		add_base_country_intel = 100
+		custom_tooltip = gamemaster_spy_orb_gives_full_sensor_range
+	}
+	ai_weight = {
+		weight = 0
+	}
+	edict_cap_usage = 0
+}
+
+gamemaster_ftl_jumpdrive_range = {
+	icon = "GFX_icon_gamemaster"
+	length = -1
+	resources = {
+		category = edicts
+		cost = {
+			unity = 0
+		}
+	}
+	potential = {
+		has_civic = civic_gamemaster
+		is_ai = no
+	}
+	modifier = {
+		ship_ftl_jumpdrive_range_mult = 100
+	}
+	ai_weight = {
+		weight = 0
+	}
+	edict_cap_usage = 0
+}
+

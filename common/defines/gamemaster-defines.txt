@@ -1,0 +1,6 @@
+#line 1081
+NGameplay = {
+	RESOLUTION_VOTE_TIMER = 30						# number of days a resolution will be on the senate floor before being passed/failed
+	DEFAULT_COUNCIL_SIZE = 1 						# default number of community council members, will be modified
+	DEFAULT_COUNCIL_EMERGENCY_MEASURES = yes		# can the council by default propose emergency measures?
+}

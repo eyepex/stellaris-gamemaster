@@ -1,0 +1,12 @@
+civic_gamemaster = {
+	
+	playable = {}
+	potential = {}
+	possible = {}
+	pickable_at_start = no
+	modification = no
+	modifier = {
+		country_government_civic_points_add = 1
+	}
+	ai_playable = { always = no }
+}
