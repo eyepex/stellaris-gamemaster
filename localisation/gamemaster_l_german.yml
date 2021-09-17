@@ -1,1 +1,23 @@
 ﻿l_german: 
+  civic_gamemaster: "Spielleiter"
+  civic_gamemaster_desc: "Dieser Spieler hat spezielle Privilegien, die dabei helfen sollen, die Story besser zu erzaehlen."
+
+  gamemasternews.0.name: "News Network Menu"
+  gamemasternews.0.desc: "Welches Event sollen die Spieler zu sehen bekommen?"
+  gamemasternews.OK: "OK"
+
+  gamemasternews.1.name: "SL: Ankuendigung!"
+  gamemasternews.1.desc: "Die Spielleitung will eine Ankuendigung machen. Wechsel bitte den Voice-Channel."
+
+  gamemasternews.2.name: "SL: Baldiges Ende der Session!"
+  gamemasternews.2.desc: "Die Zeit ist gekommen. Das Spiel bleibt nun pausiert. Wenn noch jemand etwas einstellen will, bleibt noch ein wenig Zeit"
+
+  gamemasternews.3.name: "SL: Wirkliches Ende der Session!"
+  gamemasternews.3.desc: "Die Zeit ist gespeichert. Die Spielleitung verlaesst nun den Client. Alle Aenderungen, die jetzt noch gemacht werden, uebertragen sich nicht auf das Spiel."
+
+  gamemasternews.4.name: "SL: Treffen der Galaktischen Gemeinschaft!"
+  gamemasternews.4.desc: "Die Spielleitung ruft alle Spieler zusammen, sich baldigst auf dem Diplomatischen Parkett einzufinden. Wer nicht teil der Gemeinschaft ist, kann trotzdem zuhoeren. Das Spiel wird im folgenden oefter pausiert werden, um ein paar Abstimmungen durchzufuehren und Wortmeldungen beachten zu koennen."
+
+  gamemasternews.5.name: "SL: Pause!"
+  gamemasternews.5.desc: "Die Spielleitung muss sich beraten. Bitte habe etwas Geduld."
+

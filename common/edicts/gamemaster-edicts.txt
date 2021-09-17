@@ -173,3 +173,26 @@ gamemaster_ftl_jumpdrive_range = {
 	edict_cap_usage = 0
 }
 
+gamemaster_news_menu = {
+	icon = "GFX_icon_gamemaster"
+	length = -1
+	resources = {
+		category = edicts
+		cost = {
+			unity = 1
+		}
+	}
+	potential = {
+		has_civic = civic_gamemaster
+		is_ai = no
+	}
+	effect = {
+		country_event = {
+			id = gamemasternews.0
+		}	
+	}
+	ai_weight = {
+		weight = 0
+	}
+	edict_cap_usage = 0
+}

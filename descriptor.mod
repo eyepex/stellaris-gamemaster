@@ -4,6 +4,6 @@ tags={
 	"Gameplay"
 	"Utilities"
 }
-name="gamemaster"
+name="eyepex's gamemaster mod"
 supported_version="3.1.1"
 remote_file_id="2603653352"

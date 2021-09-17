@@ -1,0 +1,130 @@
+
+namespace = gamemasternews
+
+#menu
+country_event = {
+	id = gamemasternews.0
+	title = gamemasternews.0.name
+	desc = gamemasternews.0.desc
+	picture = "GFX_evt_news_room"
+	is_triggered_only = yes
+	option = {
+		name = gamemasternews.OK
+
+	}
+	option = {
+		name = gamemasternews.1.name
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			country_event = {
+				id = gamemasternews.1
+			}
+		}
+	}
+	option = {
+		name = gamemasternews.2.name
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			country_event = {
+				id = gamemasternews.2
+			}
+		}
+	}
+	option = {
+		name = gamemasternews.3.name
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			country_event = {
+				id = gamemasternews.3
+			}
+		}
+	}
+	option = {
+		name = gamemasternews.4.name
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			country_event = {
+				id = gamemasternews.4
+			}
+		}
+	}
+	option = {
+		name = gamemasternews.5.name
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			country_event = {
+				id = gamemasternews.5
+			}
+		}
+	}
+}
+
+#gather-for-announcement
+country_event = {
+	id = gamemasternews.1
+	title = gamemasternews.1.name
+	desc = gamemasternews.1.desc
+	picture = "GFX_evt_news_room"
+	is_triggered_only = yes
+	option = {
+		name = gamemasternews.OK
+	}
+}
+
+#Baldiges Ende der Session
+country_event = {
+	id = gamemasternews.2
+	title = gamemasternews.2.name
+	desc = gamemasternews.2.desc
+	picture = "GFX_evt_clocks"
+	is_triggered_only = yes
+	option = {
+		name = gamemasternews.OK
+	}
+}
+
+#Wirkliches Ende der Session
+country_event = {
+	id = gamemasternews.3
+	title = gamemasternews.3.name
+	desc = gamemasternews.3.desc
+	picture = "GFX_evt_clocks"
+	is_triggered_only = yes
+	option = {
+		name = gamemasternews.OK
+	}
+}
+
+#Treffen der Galaktischen Gemeinschaft
+country_event = {
+	id = gamemasternews.4
+	title = gamemasternews.4.name
+	desc = gamemasternews.4.desc
+	picture = "GFX_evt_civil_action"
+	is_triggered_only = yes
+	option = {
+		name = gamemasternews.OK
+	}
+}
+
+#Pause
+country_event = {
+	id = gamemasternews.5
+	title = gamemasternews.5.name
+	desc = gamemasternews.5.desc
+	picture = "GFX_evt_board_meeting"
+	is_triggered_only = yes
+	option = {
+		name = gamemasternews.OK
+	}
+}
