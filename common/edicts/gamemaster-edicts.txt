@@ -173,13 +173,35 @@ gamemaster_ftl_jumpdrive_range = {
 	edict_cap_usage = 0
 }
 
+gamemaster_enables_claims_on_capitals = {
+	icon = "GFX_icon_gamemaster"
+	length = -1
+	resources = {
+		category = edicts
+		cost = {
+			unity = 0
+		}
+	}
+	potential = {
+		has_civic = civic_gamemaster
+		is_ai = no
+	}
+	modifier = {
+		custom_tooltip = claims_on_capitals_not_forbidden_anymore
+	}
+	ai_weight = {
+		weight = 0
+	}
+	edict_cap_usage = 0
+}
+
 gamemaster_news_menu = {
 	icon = "GFX_icon_gamemaster"
 	length = -1
 	resources = {
 		category = edicts
 		cost = {
-			unity = 1
+			unity = 0
 		}
 	}
 	potential = {
