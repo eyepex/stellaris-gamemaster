@@ -13,4 +13,5 @@ Have Fun.
 ---
 
 ### Features:
-- description.
+- gamemaster edicts:
+    - fresh colonies cost 1 influence upkeep for all
