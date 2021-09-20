@@ -8,6 +8,7 @@ country_event = {
 	desc = gamemasternews.0.desc
 	picture = "GFX_evt_news_room"
 	is_triggered_only = yes
+	auto_opens = yes
 	option = {
 		name = gamemasternews.OK
 
@@ -76,6 +77,7 @@ country_event = {
 	desc = gamemasternews.1.desc
 	picture = "GFX_evt_news_room"
 	is_triggered_only = yes
+	auto_opens = yes
 	option = {
 		name = gamemasternews.OK
 	}
@@ -88,6 +90,7 @@ country_event = {
 	desc = gamemasternews.2.desc
 	picture = "GFX_evt_clocks"
 	is_triggered_only = yes
+	auto_opens = yes
 	option = {
 		name = gamemasternews.OK
 	}
@@ -100,6 +103,7 @@ country_event = {
 	desc = gamemasternews.3.desc
 	picture = "GFX_evt_clocks"
 	is_triggered_only = yes
+	auto_opens = yes
 	option = {
 		name = gamemasternews.OK
 	}
@@ -112,6 +116,7 @@ country_event = {
 	desc = gamemasternews.4.desc
 	picture = "GFX_evt_civil_action"
 	is_triggered_only = yes
+	auto_opens = yes
 	option = {
 		name = gamemasternews.OK
 	}
@@ -124,6 +129,7 @@ country_event = {
 	desc = gamemasternews.5.desc
 	picture = "GFX_evt_board_meeting"
 	is_triggered_only = yes
+	auto_opens = yes
 	option = {
 		name = gamemasternews.OK
 	}
