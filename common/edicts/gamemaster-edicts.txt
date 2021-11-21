@@ -142,7 +142,7 @@ gamemaster_spy_orb = {
 		is_ai = no
 	}
 	modifier = {
-		add_base_country_intel = 100
+		#add_base_country_intel = 100
 		custom_tooltip = gamemaster_spy_orb_gives_full_sensor_range
 	}
 	ai_weight = {
@@ -173,7 +173,7 @@ gamemaster_ftl_jumpdrive_range = {
 	edict_cap_usage = 0
 }
 
-gamemaster_enables_claims_on_capitals = {
+gamemaster_disables_all_claims = {
 	icon = "GFX_icon_gamemaster"
 	length = -1
 	resources = {

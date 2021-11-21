@@ -2,16 +2,16 @@
 # This = system
 can_add_claim = {
 	custom_tooltip = {
-		fail_text = ASK_GAMEMASTER_IF_YOU_WANT_TO_CLAIM_CAPITAL
+		fail_text = ASK_GAMEMASTER_IF_YOU_WANT_TO_CLAIM
 		if = {
 			limit = {
 				any_country = {
 					count = 1
 					has_civic = civic_gamemaster
-					NOT = { has_edict = gamemaster_enables_claims_on_capitals }
+					has_edict = gamemaster_disables_all_claims }
 				}
 			}
-			is_capital_system = no
+			always = no
 		}
 	}
 
